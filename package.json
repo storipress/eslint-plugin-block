@@ -1,0 +1,8 @@
+{
+  "name": "@storipress/eslint-plugin-block",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "eslint": "*"
+  }
+}
