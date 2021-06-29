@@ -2,6 +2,8 @@
 
 with [image-with-literal-src](./image-image-with-literal-src.md), this can catch missing src value
 
+This rule has suggested fixes.
+
 ## Fail
 
 ```vue
