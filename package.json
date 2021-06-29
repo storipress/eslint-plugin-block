@@ -4,5 +4,8 @@
   "main": "lib/index.js",
   "peerDependencies": {
     "eslint": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
