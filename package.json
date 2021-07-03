@@ -3,6 +3,10 @@
   "version": "0.1.4",
   "main": "lib/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storipress/eslint-plugin-block.git"
+  },
   "scripts": {
     "test": "ava"
   },
