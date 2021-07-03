@@ -1,6 +1,6 @@
 const { ruleTester } = require('../_helper')
 const rule = require('../../lib/rules/image-with-literal-src')
-const { TEST_BLOCK_FILE } = require('../../lib/helpers/is-block-file')
+const { TEST_BLOCK_FILE } = require('../../lib/utils/is-block-file')
 
 ruleTester.run('image-with-literal-src', rule, {
   valid: [

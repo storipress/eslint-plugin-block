@@ -1,6 +1,6 @@
 const { ruleTester } = require('../_helper')
 const rule = require('../../lib/rules/headline-image-missing-alt')
-const { TEST_BLOCK_FILE } = require('../../lib/helpers/is-block-file')
+const { TEST_BLOCK_FILE } = require('../../lib/utils/is-block-file')
 
 ruleTester.run('headline-image-missing-alt', rule, {
   valid: [
