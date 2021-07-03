@@ -59,6 +59,22 @@ ruleTester.run('seo-tags', rule, {
   `,
       filename: 'test.vue',
     },
+    {
+      code: `
+  <template>
+    <TextInput kind="foo" component="p" :defaultValue="desk" />
+  </template>
+  `,
+      filename: 'navbar.vue',
+    },
+    {
+      code: `
+  <template>
+    <TextElement kind="foo" component="p">{{ article.author }}</TextElement>
+  </template>
+  `,
+      filename: 'test.vue',
+    },
   ],
   invalid: [
     {
@@ -145,6 +161,56 @@ ruleTester.run('seo-tags', rule, {
     <HeroBlock>
       <TextInput kind="foo" component="h4" :defaultValue="desk" />
     </HeroBlock>
+  </template>
+  `,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      code: `
+  <template>
+    <TextInput kind="foo" component="h4" :defaultValue="desk" />
+  </template>
+  `,
+      filename: 'navbar.vue',
+      errors: [
+        {
+          messageId: 'notHeader',
+          data: { tag: 'h4' },
+          suggestions: [
+            {
+              messageId: 'changeTag',
+              data: { tag: 'p' },
+              output: `
+  <template>
+    <TextInput kind="foo" component="p" :defaultValue="desk" />
+  </template>
+  `,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      code: `
+  <template>
+    <TextElement kind="foo" component="h4">{{ article.author }}</TextElement>
+  </template>
+  `,
+      filename: 'test.vue',
+      errors: [
+        {
+          messageId: 'notHeader',
+          data: { tag: 'h4' },
+          suggestions: [
+            {
+              messageId: 'changeTag',
+              data: { tag: 'p' },
+              output: `
+  <template>
+    <TextElement kind="foo" component="p">{{ article.author }}</TextElement>
   </template>
   `,
             },
