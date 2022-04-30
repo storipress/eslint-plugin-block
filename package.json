@@ -20,7 +20,7 @@
     "ava": "3.15.0",
     "eslint": "8.14.0",
     "eslint-ava-rule-tester": "4.0.0",
-    "eslint-config-prettier": "8.3.0",
+    "eslint-config-prettier": "8.5.0",
     "eslint-config-standard": "16.0.3",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-import": "2.25.3",
