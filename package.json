@@ -30,5 +30,5 @@
     "prettier": "2.6.2",
     "vue-eslint-parser": "8.3.0"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.0"
 }
