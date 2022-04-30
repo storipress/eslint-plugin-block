@@ -135,7 +135,7 @@ __metadata:
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.2.0
     prettier: 2.6.2
-    vue-eslint-parser: 8.0.1
+    vue-eslint-parser: 8.3.0
   peerDependencies:
     eslint: "*"
   languageName: unknown
@@ -1383,17 +1383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "eslint-scope@npm:6.0.0"
-  dependencies:
-    esrecurse: ^4.3.0
-    estraverse: ^5.2.0
-  checksum: 3f1b3578f288c3820f68ad2aae102300e546be8a98a958f515405dc20cc2fe64fda583d364977628bb14fe3d4f96f37de5e9bc5d6eb26bc310da33ba2a677dc3
-  languageName: node
-  linkType: hard
-
-"eslint-scope@npm:^7.1.1":
+"eslint-scope@npm:^7.0.0, eslint-scope@npm:^7.1.1":
   version: 7.1.1
   resolution: "eslint-scope@npm:7.1.1"
   dependencies:
@@ -1437,7 +1427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:^3.0.0, eslint-visitor-keys@npm:^3.3.0":
+"eslint-visitor-keys@npm:^3.1.0, eslint-visitor-keys@npm:^3.3.0":
   version: 3.3.0
   resolution: "eslint-visitor-keys@npm:3.3.0"
   checksum: d59e68a7c5a6d0146526b0eec16ce87fbf97fe46b8281e0d41384224375c4e52f5ffb9e16d48f4ea50785cde93f766b0c898e31ab89978d88b0e1720fbfb7808
@@ -4149,20 +4139,20 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:8.0.1":
-  version: 8.0.1
-  resolution: "vue-eslint-parser@npm:8.0.1"
+"vue-eslint-parser@npm:8.3.0":
+  version: 8.3.0
+  resolution: "vue-eslint-parser@npm:8.3.0"
   dependencies:
     debug: ^4.3.2
-    eslint-scope: ^6.0.0
-    eslint-visitor-keys: ^3.0.0
+    eslint-scope: ^7.0.0
+    eslint-visitor-keys: ^3.1.0
     espree: ^9.0.0
     esquery: ^1.4.0
     lodash: ^4.17.21
     semver: ^7.3.5
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 9c40558975ef0aecb5cf8977d59d39ffde58108c652b8fd66524aec0cc828fe63e2146c0a95b2ccb52fbd97c1b1d3e5936919920c12d4de4be4c5a752dbc4e53
+  checksum: 8cc751e9fc2bfba93664ad8945732ab1c97791f9123e703de8669b65670d1e01906d80436bf4932d7ee6fa6174ed4545e8abb059206c88f4bd71957ca6cf7ba8
   languageName: node
   linkType: hard
 
