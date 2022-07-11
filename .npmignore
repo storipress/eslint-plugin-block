@@ -1,4 +1,8 @@
 .vscode
 .yarn
 .eslintrc.js
+.github
+.yarnrc.yml
+release.config.js
+renovate.json
 tests
