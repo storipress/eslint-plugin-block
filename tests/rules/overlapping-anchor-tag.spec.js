@@ -53,10 +53,12 @@ ruleTester.run('overlapping-anchor-tag', rule, {
   </template>
   `,
       filename: 'test.vue',
-      errors: [{
-        messageId: 'overlappingAnchorTag',
-        data: { overlappingTagName: 'Authors', tagName: 'LinkElement' }
-      }],
+      errors: [
+        {
+          messageId: 'overlappingAnchorTag',
+          data: { overlappingTagName: 'Authors', tagName: 'LinkElement' },
+        },
+      ],
     },
     {
       code: `
@@ -71,10 +73,12 @@ ruleTester.run('overlapping-anchor-tag', rule, {
   </template>
   `,
       filename: 'test.vue',
-      errors: [{
-        messageId: 'overlappingAnchorTag',
-        data: { overlappingTagName: 'Authors', tagName: 'a' }
-      }],
+      errors: [
+        {
+          messageId: 'overlappingAnchorTag',
+          data: { overlappingTagName: 'Authors', tagName: 'a' },
+        },
+      ],
     },
     {
       code: `
@@ -91,10 +95,12 @@ ruleTester.run('overlapping-anchor-tag', rule, {
   </template>
   `,
       filename: 'test.vue',
-      errors: [{
-        messageId: 'overlappingAnchorTag',
-        data: { overlappingTagName: 'LinkElement', tagName: 'a' }
-      }],
+      errors: [
+        {
+          messageId: 'overlappingAnchorTag',
+          data: { overlappingTagName: 'LinkElement', tagName: 'a' },
+        },
+      ],
     },
     {
       code: `
@@ -111,10 +117,12 @@ ruleTester.run('overlapping-anchor-tag', rule, {
   </template>
   `,
       filename: 'test.vue',
-      errors: [{
-        messageId: 'overlappingAnchorTag',
-        data: { overlappingTagName: 'LinkElement', tagName: 'LinkElement' }
-      }],
+      errors: [
+        {
+          messageId: 'overlappingAnchorTag',
+          data: { overlappingTagName: 'LinkElement', tagName: 'LinkElement' },
+        },
+      ],
     },
     {
       code: `
@@ -129,10 +137,12 @@ ruleTester.run('overlapping-anchor-tag', rule, {
   </template>
   `,
       filename: 'test.vue',
-      errors: [{
-        messageId: 'overlappingAnchorTag',
-        data: { overlappingTagName: 'a', tagName: 'a' }
-      }],
+      errors: [
+        {
+          messageId: 'overlappingAnchorTag',
+          data: { overlappingTagName: 'a', tagName: 'a' },
+        },
+      ],
     },
     {
       code: `
@@ -145,10 +155,12 @@ ruleTester.run('overlapping-anchor-tag', rule, {
   </template>
   `,
       filename: 'test.vue',
-      errors: [{
-        messageId: 'overlappingAnchorTag',
-        data: { overlappingTagName: 'a', tagName: 'LinkElement' }
-      }],
+      errors: [
+        {
+          messageId: 'overlappingAnchorTag',
+          data: { overlappingTagName: 'a', tagName: 'LinkElement' },
+        },
+      ],
     },
   ],
 })

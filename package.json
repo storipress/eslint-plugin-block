@@ -1,6 +1,6 @@
 {
   "name": "@storipress/eslint-plugin-block",
-  "version": "0.1.6",
+  "version": "0.0.0-development",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": {
@@ -8,7 +8,9 @@
     "url": "https://github.com/storipress/eslint-plugin-block.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "lint": "eslint .",
+    "semantic-release": "semantic-release"
   },
   "peerDependencies": {
     "eslint": "*"
@@ -17,6 +19,8 @@
     "access": "public"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "ava": "3.15.0",
     "eslint": "8.19.0",
     "eslint-ava-rule-tester": "4.0.0",
@@ -24,10 +28,11 @@
     "eslint-config-standard": "17.0.0",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-promise": "6.0.0",
     "prettier": "2.7.1",
+    "semantic-release": "^19.0.3",
     "vue-eslint-parser": "9.0.3"
   },
   "packageManager": "yarn@3.2.1"

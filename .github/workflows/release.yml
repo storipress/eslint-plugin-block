@@ -1,11 +1,11 @@
-name: test
+name: "Release"
 on:
-  pull_request:
-    paths-ignore:
-      - '**.md'
+  push:
+    branches:
+      - master
 
 jobs:
-  test:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -13,6 +13,12 @@ jobs:
         with:
           node-version: '16'
           cache: 'yarn'
+
       - run: yarn install
-      - run: yarn lint
+
       - run: yarn test
+
+      - run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
