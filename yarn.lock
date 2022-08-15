@@ -447,7 +447,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/changelog@npm:^6.0.1":
+"@semantic-release/changelog@npm:6.0.1":
   version: 6.0.1
   resolution: "@semantic-release/changelog@npm:6.0.1"
   dependencies:
@@ -492,7 +492,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/git@npm:^10.0.1":
+"@semantic-release/git@npm:10.0.1":
   version: 10.0.1
   resolution: "@semantic-release/git@npm:10.0.1"
   dependencies:
@@ -583,8 +583,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/eslint-plugin-block@workspace:."
   dependencies:
-    "@semantic-release/changelog": ^6.0.1
-    "@semantic-release/git": ^10.0.1
+    "@semantic-release/changelog": 6.0.1
+    "@semantic-release/git": 10.0.1
     ava: 4.3.1
     eslint: 8.22.0
     eslint-ava-rule-tester: 4.0.0
@@ -592,11 +592,11 @@ __metadata:
     eslint-config-standard: 17.0.0
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.26.0
-    eslint-plugin-n: ^15.2.4
+    eslint-plugin-n: 15.2.4
     eslint-plugin-prettier: 4.2.1
     eslint-plugin-promise: 6.0.0
     prettier: 2.7.1
-    semantic-release: ^19.0.3
+    semantic-release: 19.0.3
     vue-eslint-parser: 9.0.3
   peerDependencies:
     eslint: "*"
@@ -2005,7 +2005,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:^15.2.4":
+"eslint-plugin-n@npm:15.2.4":
   version: 15.2.4
   resolution: "eslint-plugin-n@npm:15.2.4"
   dependencies:
@@ -5195,7 +5195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^19.0.3":
+"semantic-release@npm:19.0.3":
   version: 19.0.3
   resolution: "semantic-release@npm:19.0.3"
   dependencies:
