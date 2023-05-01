@@ -35,5 +35,5 @@
     "semantic-release": "19.0.5",
     "vue-eslint-parser": "9.1.1"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.1"
 }
