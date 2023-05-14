@@ -622,7 +622,7 @@ __metadata:
     eslint-plugin-promise: 6.1.1
     prettier: 2.8.8
     semantic-release: 19.0.5
-    vue-eslint-parser: 9.2.1
+    vue-eslint-parser: 9.3.0
   peerDependencies:
     eslint: "*"
   languageName: unknown
@@ -6139,9 +6139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:9.2.1":
-  version: 9.2.1
-  resolution: "vue-eslint-parser@npm:9.2.1"
+"vue-eslint-parser@npm:9.3.0":
+  version: 9.3.0
+  resolution: "vue-eslint-parser@npm:9.3.0"
   dependencies:
     debug: ^4.3.4
     eslint-scope: ^7.1.1
@@ -6152,7 +6152,7 @@ __metadata:
     semver: ^7.3.6
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: f643ec4029c9420817854f1bcd49cd35f7bcdcc293ad75d2619af873067768fa5887ce4665093fa6071ab1935a421afb541f1c1a29d27952bc35d55811f51fb1
+  checksum: 9bdf375655c405f49a6e46e20127e42e2cb03ec63e811baf9798da7b881769653bb56aba7007d7e6584b8b22c14f0ffbdaf8fa3a902bd52ce9ff947b78e55188
   languageName: node
   linkType: hard
 
