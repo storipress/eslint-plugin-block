@@ -22,7 +22,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "ava": "5.2.0",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "eslint-ava-rule-tester": "4.0.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-config-standard": "17.0.0",
