@@ -21,7 +21,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "ava": "5.3.0",
+    "ava": "5.3.1",
     "eslint": "8.42.0",
     "eslint-ava-rule-tester": "4.0.0",
     "eslint-config-prettier": "8.8.0",
