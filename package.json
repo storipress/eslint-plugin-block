@@ -33,7 +33,7 @@
     "eslint-plugin-promise": "6.1.1",
     "prettier": "3.0.3",
     "semantic-release": "21.1.2",
-    "vue-eslint-parser": "9.3.1"
+    "vue-eslint-parser": "9.3.2"
   },
   "packageManager": "yarn@3.6.4"
 }
