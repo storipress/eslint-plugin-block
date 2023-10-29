@@ -711,7 +711,7 @@ __metadata:
     "@semantic-release/git": 10.0.1
     ava: 5.3.1
     eslint: 8.52.0
-    eslint-ava-rule-tester: 4.0.0
+    eslint-ava-rule-tester: 4.1.0
     eslint-config-prettier: 8.10.0
     eslint-config-standard: 17.1.0
     eslint-import-resolver-node: 0.3.9
@@ -2238,12 +2238,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-ava-rule-tester@npm:4.0.0":
-  version: 4.0.0
-  resolution: "eslint-ava-rule-tester@npm:4.0.0"
+"eslint-ava-rule-tester@npm:4.1.0":
+  version: 4.1.0
+  resolution: "eslint-ava-rule-tester@npm:4.1.0"
   peerDependencies:
     eslint: ">=5.5.0"
-  checksum: 7b0ffac178016c311bc91aacf0f8def54a39083b5ed4e96f86e62347e7a77b2a6bb0c62e89cebb2d6303ae163cbca926d2c1825af7df648e6cffef72d6fecb76
+  checksum: b69f98ff062cd8fa8fe2ac7f60d8bb0e4594e4d90c00fae5014e13157662f860ebd58bba4cc12026cd30278b0aa8fe36ccc7f610d92b4d10a74e25e8d95ae8d9
   languageName: node
   linkType: hard
 
